@@ -19,10 +19,10 @@
 <body>
 
 <header class=" w3-top">
-
+<button onclick="window.location.href='/code'">Continue</button>
 			<div  class="w3-bar w3-blue ">
-			  <div class="w3-bar-item"><a class=" w3-button w3-blue w3-xlarge w3-padding w3-animate-right"href="{% url 'what' %}" >PCTECHIE.IN </a>
-			  <div class="w3-tiny"> 1-845-213-1523 || SUPPORT@PCTECHIE.IN </div>
+			  <div class="w3-bar-item"><a class=" w3-button w3-blue w3-xlarge w3-padding w3-animate-right"href="" >PCTECHIE.IN </a>
+			  <div class="w3-tiny"> 1-845-213-1523 ||SUPPORT@PCTECHIE.IN </div>
 			  </div>
 
 			  <a id= "headbar" href="/do.php" class="w3-bar-item w3-button w3-hover-white w3-right  w3-xlarge w3-mobile w3-animate-left w3-hide-small">Do
@@ -35,7 +35,7 @@
 
 			  </a>
 			  <!--<a href="#" class="w3-bar-item w3-button w3-hover-white w3-right w3-mobile w3-animate-left w3-hide-small">Pricing</a>-->
-			  <a  id= "headbar" href="/what.php" class="w3-bar-item w3-button w3-hover-white w3-right w3-xlarge w3-mobile w3-animate-left w3-hide-small">What
+			  <a  id= "headbar" href="/what" class="w3-bar-item w3-button w3-hover-white w3-right w3-xlarge w3-mobile w3-animate-left w3-hide-small">What
 			  		<div id="short" class="w3-medium">About Us</div>
 
 			  </a>

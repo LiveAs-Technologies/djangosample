@@ -1,12 +1,20 @@
-{% load static %}
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>{% block head_title %}My App CEO {% endblock head_title %}</title>
 </head>
+{% include "snippets/css.html" %}
 <body>
-				<img src='{% static "appceo/logo_pctechie.jpg" %}'  class="w3-round-small  " alt="Norway" style="width:100% ">
+	<div class="w3-container w3-center w3-blue">
+	<h2 class="w3-left">My APP CEO</h2>
+	<span class="w3-right"><br>
+	<a href = "/about" class="w3-large">About Us</a>
+	<a href="/contact" class="w3-large">Contact Us</a></span>
+</div>
 
+
+<div class="w3-container">
+{% block content %} {% endblock content %}
+</div>
 </body>
 </html>
